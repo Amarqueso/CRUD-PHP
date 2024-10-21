@@ -1,0 +1,10 @@
+create database cadastro
+
+create table transacao (
+	id int(10) unsigned auto_increment primary key,
+	valor float not null,
+	tipo varchar(255) not null,
+	despesa_receita varchar(255) not null
+);
+
+
